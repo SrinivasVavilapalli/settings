@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: nunito;
+}
+#logo{
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  height: 5%;
+}
+.menu{
+  position: absolute;
+  border-radius: 10px;
+  background-color: #8bbabb;
+  height: 250px;
+  max-width: 5%;
+  left: 2.5%;
+  top: 15%;
+}
+.list{
+  margin: 13px auto;
+  list-style-type: none;
+}
+.list svg{
+  margin: 20px 20px 30px 28px;
+  color: #fff;
+  stroke-width: 2.5px;
+  cursor: pointer;
+}
+.indicator{
+  position: absolute;
+  height: 20%;
+  margin-top: 225%;
+  border-radius: 0 5px 5px 0;
+  width: 6%;
+  background-color: #fff;
+  transition: margin-top 0.4s linear;
+}
+.profile{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  height: 400px;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.05);
+}
+h2{
+  position: relative;
+  top: 5%;
+  left: 5%;
+  font-weight: 800;
+  font-size: 35px;
+}
+#name{
+  position: relative;
+  top: 10%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+#email{
+  position: relative;
+  top: 15%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+.signout{
+  position: relative;
+  top: 20%;
+  color: #f0134d;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+}
+.profile img{
+  transform: translate(100%,20%);
+  height: 40%;
+  border-radius: 50%;
+}
+.contact{
+  position: absolute;
+  background-color: #bbded6;
+  top: 62%;
+  left: 10%;
+  height: 255px;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.05);
+}
+.contact h2{
+  color: #fff;
+}
+.contact p{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 800;
+}
+.contact .email{
+  position: relative;
+  left: 5%;
+  top:10%;
+}
+.contact .number{
+  position: relative;
+  left: 5%;
+  top:15%;
+}
+.aboutus{
+  position: absolute;
+  background-color: #9dab86;
+  top: 5%;
+  left: 42%;
+  height: 685px;
+  width: 55%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.05);
+}
+.aboutus h2{
+  color: #fff;
+  margin-bottom: 8%;
+}
+.aboutus img{
+  position: relative;
+  height: 10%;
+  left: 5%;
+}
+.aboutus p{
+  font-weight: 600;
+  color: #fff;
+  padding: 2 ;
+}
